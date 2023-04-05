@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAN_Card_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>REGEX( PAN_Number__c  ,&quot;[A-Z]{5}[1-9]{4}[A-Z]{1}&quot;)</errorConditionFormula>
+    <errorDisplayField>PAN_Number__c</errorDisplayField>
+    <errorMessage>Incorrect PAN Card Format (Ex: ABCDE1234F)</errorMessage>
+</ValidationRule>

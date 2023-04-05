@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chit_value</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISNUMBER( Name  ))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Chit value should contain only numbers</errorMessage>
+</ValidationRule>
