@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Chit_members_VR</fullName>
+    <active>true</active>
+    <errorConditionFormula>Active_Chit_Members__c &gt;   Chit_Members_Capacity__c</errorConditionFormula>
+    <errorMessage>Chit members slots are full</errorMessage>
+</ValidationRule>

@@ -15,7 +15,6 @@
     <tabs>standard-MobileHome</tabs>
     <tabs>Chit__c</tabs>
     <tabs>Chit_Groups__c</tabs>
-    <tabs>Chit_Group_Members__c</tabs>
     <tabs>Chit_Customer__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Chit_Manager_UtilityBar</utilityBar>
