@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chit_Value__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( Payment_Chit_Group_Name__r.Chit_Value__r.Name ), 0, VALUE(Payment_Chit_Group_Name__r.Chit_Value__r.Name))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Chit Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
