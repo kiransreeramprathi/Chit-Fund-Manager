@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
-        <headerColor>#FED801</headerColor>
+        <headerColor>#FE4101</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
@@ -16,6 +16,7 @@
     <tabs>Chit__c</tabs>
     <tabs>Chit_Groups__c</tabs>
     <tabs>Chit_Customer__c</tabs>
+    <tabs>Auction__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Chit_Manager_UtilityBar</utilityBar>
 </CustomApplication>
